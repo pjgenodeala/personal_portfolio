@@ -1,0 +1,24 @@
+// ==========================================================================
+//
+//   MIXIN
+//
+// ==========================================================================
+@use "sass:math";
+@use '../common/vars'  as var;
+
+
+// ------------
+// media query
+// ------------
+@mixin mq($DEVICE) {
+  @if $DEVICE == "pc" {
+    @media (min-width: (var.$breakPoint + 1)) {
+        @content;
+    }
+  }
+  @else if $DEVICE == "sp" {
+    @media (max-width: (var.$breakPoint)) {
+        @content;
+    }
+  }
+}

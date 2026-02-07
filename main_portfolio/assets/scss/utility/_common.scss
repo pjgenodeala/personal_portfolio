@@ -1,0 +1,102 @@
+// ==========================================================================
+//
+// utility common
+//
+// ==========================================================================
+@use '../common/vars'  as var;
+@use '../common/mixin'  as mixin;
+
+// .u-mt05{
+//   margin-top: .5em;
+// }
+// .u-mb05{
+//   margin-bottom: .5em;
+// }
+// .u-pt05{
+//   padding-top: .5em;
+// }
+// .u-pb05{
+//   padding-bottom: .5em;
+// }
+
+// @for $i from 1 through 10 {
+//   .u-mt#{$i}em {
+//     margin-top: $i * 1em;
+//   }
+//   .u-mb#{$i}em {
+//     margin-bottom: $i * 1em;
+//   }
+//   .u-pt#{$i}em {
+//     padding-top: $i * 1em;
+//   }
+//   .u-pb#{$i}em {
+//     padding-bottom: $i * 1em;
+//   }
+// }
+
+// @for $i from 1 through 5 {
+//   .u-mt#{$i*4}px {
+//     margin-top: $i * 4px;
+//   }
+//   .u-mb#{$i*4}px {
+//     margin-bottom: $i * 4px;
+//   }
+//   .u-pt#{$i*4}px {
+//     padding-top: $i * 4px;
+//   }
+//   .u-pb#{$i*4}px {
+//     padding-bottom: $i * 4px;
+//   }
+// }
+
+@for $i from 1 through 5 {
+  .u-mt#{$i*4}px {
+    margin-top: $i * .4rem;
+  }
+  .u-mb#{$i*4}px {
+    margin-bottom: $i * .4rem;
+  }
+  .u-pt#{$i*4}px {
+    padding-top: $i * .4rem;
+  }
+  .u-pb#{$i*4}px {
+    padding-bottom: $i * .4rem;
+  }
+}
+
+.u-white{
+  color: #fff;
+  fill: #fff;
+  *{
+    color: #fff;
+    fill: #fff;
+  }
+}
+
+.u-center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-right{
+  text-align: right;
+  margin-left: auto;
+}
+
+.u-left{
+  text-align: left;
+  margin-right: auto;
+}
+
+.u-sp {
+  @include mixin.mq(pc) {
+    display: none !important;
+  }
+}
+
+.u-pc {
+  @include mixin.mq(sp) {
+    display: none !important;
+  }
+}

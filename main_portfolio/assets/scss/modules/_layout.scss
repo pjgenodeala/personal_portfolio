@@ -1,0 +1,16 @@
+// ==========================================================================
+//
+//   layout
+//
+// ==========================================================================
+@use '../common/vars'  as var;
+@use '../common/mixin'  as mixin;
+
+.inner {
+  width: min(120rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  @include mixin.mq(sp) {
+    width: min(33.5rem, 100%);
+  }
+}

@@ -1,0 +1,65 @@
+// ==========================================================================
+//
+//   text
+//
+// ==========================================================================
+@use '../common/vars'  as var;
+@use '../common/mixin'  as mixin;
+
+form{
+    padding: 10rem 0;
+}
+dl{
+    & + dl {
+        margin: 1.8rem 0 0;
+    }
+    dt{
+        display: flex;
+        align-items: center;
+        .labelRed {
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 400;
+            line-height: 1.4545454545;
+            padding: 0.2rem 0.6rem;
+            border-radius: 0.5rem;
+            background-color: #BF3030;
+            color: #fff;
+            margin: 0 0.6rem;
+        }
+    }
+    dd{
+        input[type=text],
+        input[type=tel],
+        input[type=email],
+        textarea,
+        select {
+            border: 0.1rem solid #A7A7A7;
+            padding: 1.1rem 1.5rem;
+            width: 100%;
+        }
+    }
+}
+.error {
+    color: #BF3030;
+}
+.submitButton,
+.submitConf{
+    background-color: var(--colorMain);
+    border: 0.1rem solid var(--colorMain);
+    color: #fff;
+    padding: 1.6rem 2.8rem;
+    margin: auto;
+    width: 20rem;
+    display: block;
+    text-align: center;
+}
+.submitBack{
+    border: 0.1rem solid var(--colorMain);
+    padding: 1.6rem 2.8rem;
+    margin: auto;
+    width: 20rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}

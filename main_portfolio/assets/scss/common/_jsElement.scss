@@ -1,0 +1,83 @@
+// ==========================================================================
+//
+//   jsElement
+//
+// ==========================================================================
+@use '../common/vars' as var;
+@use '../common/mixin' as mixin;
+
+.jsModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .4s ease;
+  background: none;
+  padding: 0;
+  margin: 0;
+  &:not(.isActive) {
+    opacity: 0;
+    &, * {
+      pointer-events: none;
+    }
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, .6);
+    &::after {
+      content: '×';
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 1;
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      color: #fff;
+      cursor: pointer;
+      @include mixin.mq(sp) {
+        font-size: 1.6rem;
+        top: 1.2rem;
+        right: 1.2rem;
+      }
+    }
+  }
+  &__content {
+    width: fit-content;
+  }
+}
+
+[accordion-btn] {
+  cursor: pointer;
+  &.isActive {
+    background-color: var(--colorMain);
+    color: #fff;
+  }
+}
+[accordion-content] {
+  display: none;
+}
+[tab-btn] {
+  cursor: pointer;
+  &.isActive {
+    background-color: var(--colorMain);
+    color: #fff;
+    pointer-events: none;
+  }
+}
+[tab-content] {
+  &:not(.isActive) {
+    display: none;
+  }
+}
