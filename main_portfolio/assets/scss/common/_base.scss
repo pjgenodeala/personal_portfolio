@@ -12,7 +12,10 @@ html {
     font-size: calc(1000vw/375);
   }
 }
-
+body#top {
+  background-image: url("../img/folio-bg.png");
+  background-color: #E0FFFF;
+}
 body {
   margin: 0;
   padding: 0;

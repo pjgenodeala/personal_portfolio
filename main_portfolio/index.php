@@ -162,6 +162,150 @@ $description = 'ページディスクリプション';
 
 // start content
 ?>
+<section class="page">
+    <section class="shell">
+        <section class="sidebar">
+            <div class="inner">
+                <div class="profile">
+                    <div class="avatarWrap">
+                        <div class="avatar">🙂</div>
+                    </div>
+                    <h2>Precious Genodeala</h2>
+                    <p class="role">Software Engineer</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="contactList">
+                    <div class="contactItem">
+                        <div class="iconBox">✉</div>
+                        <div class="contactMeta">
+                            <span class="label">EMAIL</span>
+                            <span class="value">aakashrajbanshi58@...</span>
+                        </div>
+                    </div>
+
+                    <div class="contactItem">
+                        <div class="iconBox">📱</div>
+                        <div class="contactMeta">
+                            <span class="label">PHONE</span>
+                            <span class="value">+977 9812345678</span>
+                        </div>
+                    </div>
+
+                    <div class="contactItem">
+                        <div class="iconBox">📍</div>
+                        <div class="contactMeta">
+                            <span class="label">LOCATION</span>
+                            <span class="value">Kathmandu, Nepal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="GitHub">⌂</a>
+                    <a href="#" aria-label="Google">G</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="main__inner">
+                <div class="main__topbar">
+                    <div class="main__tabs">
+                        <a class="main__tab main__tab--active" href="#">About</a>
+                        <a class="main__tab" href="#">Resume</a>
+                        <a class="main__tab" href="#">Portfolio</a>
+                        <a class="main__tab" href="#">Blog</a>
+                        <a class="main__tab" href="#">Contact</a>
+                    </div>
+                </div>
+
+                <div class="main__header">
+                    <h1 class="main__title">About Me</h1>
+                    <div class="main__underline"></div>
+                </div>
+
+                <div class="main__about">
+                    <p class="main__text">
+                        A passionate Flutter developer with strong expertise in cross-platform apps, REST APIs,
+                        UI/UX, widgets, and state management solutions. Proven track record in delivering
+                        cutting-edge solutions, including API integration, third-party libraries, and
+                        performance optimization.
+                    </p>
+
+                    <br class="main__break" />
+
+                    <p class="main__text">
+                        If you're seeking a skilled Flutter developer to breathe life into your project and
+                        exceed your expectations, I am here to collaborate and create magic together.
+                    </p>
+                </div>
+
+                <div class="main__doing">
+                    <h3 class="main__sectionTitle">What I'm Doing</h3>
+
+                    <div class="main__grid">
+                        <article class="main__card">
+                            <div class="main__badge">📱</div>
+                            <div class="main__cardBody">
+                                <h3 class="main__cardTitle">Mobile Apps</h3>
+                                <p class="main__cardText">
+                                    Professional development of applications for Android and iOS.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="main__card">
+                            <div class="main__badge">⌘</div>
+                            <div class="main__cardBody">
+                                <h3 class="main__cardTitle">Web Development</h3>
+                                <p class="main__cardText">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="main__card">
+                            <div class="main__badge">✎</div>
+                            <div class="main__cardBody">
+                                <h3 class="main__cardTitle">UI/UX Design</h3>
+                                <p class="main__cardText">
+                                    The most modern and high-quality design made at a professional level.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="main__card">
+                            <div class="main__badge">🗄</div>
+                            <div class="main__cardBody">
+                                <h3 class="main__cardTitle">Backend Development</h3>
+                                <p class="main__cardText">
+                                    High-performance backend services designed for scalability and seamless UX.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="main__skills">
+                    <h3 class="main__sectionTitle">Skills</h3>
+
+                    <div class="main__skillRow">
+                        <article class="main__skill main__skill--s1">DART</article>
+                        <article class="main__skill main__skill--s2">FLUTTER</article>
+                        <article class="main__skill main__skill--s3">FIREBASE</article>
+                        <article class="main__skill main__skill--s4">API</article>
+                    </div>
+
+                    <div class="main__progressLine"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+</section>
 
 
 <?php

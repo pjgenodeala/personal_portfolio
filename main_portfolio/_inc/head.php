@@ -18,11 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&family=Noto+Sans+JP&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-<!-- <link rel="stylesheet" media="screen,print" href="/assets/css/reset.css">
-<link rel="stylesheet" media="screen,print" href="/assets/css/styles-sp.css">
-<link rel="stylesheet" media="screen,print" href="/assets/css/modules.css">
-<link rel="stylesheet" media="screen,print" href="/assets/css/slick.css">
-<link rel="stylesheet" media="screen,print" href="/assets/css/slick-theme.css"> -->
+<link rel="stylesheet" href="./assets/css/styles.min.css">
 
 <!-- <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
